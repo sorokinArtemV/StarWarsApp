@@ -13,30 +13,7 @@
   }
 }
 
-.button {
-  @include flex-center(true);
-  padding-inline: 35px;
-  height: var(--button-height);
-  background-color: var(--color-dark);
-  border: var(--border);
-  border-radius: var(--border-radius);
+.button--transparent {
   color: var(--color-dark);
-  width: var(--button-width);
-  cursor: pointer;
-  gap: 10px;
-  transition-duration: var(--transition-duration);
-
-
-  @include hover {
-    background-color: var(--color-accent);
-  }
-
-  &--transparent {
-    color: var(--color-dark);
-    background-color: transparent;
-  }
+  background-color: transparent;
 }
-
-//.button:hover {
-//  background-color: var(--color-accent);
-//}
