@@ -7,10 +7,12 @@
   align-items: center;
   gap: 20px;
 }
-
-.button--transparent {
+.feature-menu-button--transparent {
   color: var(--color-dark);
   background-color: transparent;
+}
+.feature-menu-button--active {
+  background-color: var(--color-accent);
 }
 
 /*# sourceMappingURL=feature-menu.component.css.map */

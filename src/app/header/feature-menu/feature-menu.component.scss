@@ -11,9 +11,15 @@
     align-items: center;
     gap: 20px;
   }
+
+  &-button--transparent {
+    color: var(--color-dark);
+    background-color: transparent;
+  }
+
+  &-button--active {
+    background-color: var(--color-accent);
+  }
 }
 
-.button--transparent {
-  color: var(--color-dark);
-  background-color: transparent;
-}
+
